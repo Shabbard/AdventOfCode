@@ -48,7 +48,7 @@ public class HistorianHysteria
         var list1 = new List<int>();
         var list2 = new List<int>();
 
-        var lines = File.ReadAllLines(@"/home/adam/Programming/Day1/Day 1/input.txt");
+        var lines = File.ReadAllLines("input");
         foreach (var line in lines )
         {
             var col = line.Split().Where(x => !string.IsNullOrWhiteSpace(x));
